@@ -12,11 +12,12 @@
 */
 
 
+use Illuminate\Support\Facades\Route;
 
 Route::get('/home', function () {
     return view('admin.dashboard');
 });
-
+Route::resource('categories','CategoryController');
 Route::resource('users','UserController');
 
 

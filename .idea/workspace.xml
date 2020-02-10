@@ -1,7 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9352ccf6-c032-4a3f-9ead-836e0a6454be" name="Default Changelist" comment="" />
+    <list default="true" id="9352ccf6-c032-4a3f-9ead-836e0a6454be" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Repositories/CategoryRepoInterface.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Services/CategoryServiceInterface.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Services/ServicesInterface.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Services/impl/CategoryServices.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/categories/create.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/categories/edit.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/categories/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/layouts/master.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/master.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/users/edit.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/users/edit.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -12,6 +25,9 @@
     <execution>
       <executable />
     </execution>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="PhpWorkspaceProjectConfiguration">
     <include_path>
@@ -105,15 +121,18 @@
     </include_path>
   </component>
   <component name="ProjectId" id="1Xb6M5asUtDk5v5FXtX4m2Oi4ed" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/public/vendor" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/resources/views/categories" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RecentsManager">
@@ -122,6 +141,7 @@
       <recent name="$PROJECT_DIR$/resources" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/resources/views/categories" />
       <recent name="$PROJECT_DIR$/public/vendor" />
       <recent name="$PROJECT_DIR$/public" />
       <recent name="$PROJECT_DIR$/resources/views" />
@@ -143,7 +163,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1581302395390</updated>
-      <workItem from="1581302396990" duration="3459000" />
+      <workItem from="1581302396990" duration="20752000" />
     </task>
     <servers />
   </component>
@@ -151,9 +171,21 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="476" y="167" width="647" height="526" key="find.popup" timestamp="1581305016505">
+    <state x="552" y="0" width="476" height="858" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1581308615417">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="476" y="167" width="647" height="526" key="find.popup/0.0.1600.860/1600.0.1366.768@0.0.1600.860" timestamp="1581305016505" />
+    <state x="552" y="0" width="476" height="858" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1600.860/1600.0.1366.768@0.0.1600.860" timestamp="1581308615417" />
+    <state x="491" y="200" width="524" height="482" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1581320573029">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="491" y="200" width="524" height="482" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1600.860/1600.0.1366.768@0.0.1600.860" timestamp="1581320573029" />
+    <state x="486" y="262" width="541" height="359" key="NewPhpClassDialog" timestamp="1581319564521">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="486" y="262" width="541" height="359" key="NewPhpClassDialog/0.0.1600.860/1600.0.1366.768@0.0.1600.860" timestamp="1581319564521" />
+    <state x="476" y="167" width="647" height="526" key="find.popup" timestamp="1581308677070">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="476" y="167" width="647" height="526" key="find.popup/0.0.1600.860/1600.0.1366.768@0.0.1600.860" timestamp="1581308677070" />
   </component>
 </project>

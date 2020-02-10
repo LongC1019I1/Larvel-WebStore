@@ -19,20 +19,13 @@
                     </ul>
                 </div><br />
             @endif
-            <form method="post" action="{{ route('users.update', $user->id) }}">
-                @method('PATCH')
+            <form method="post" action="{{ route('categories.update', $category->id) }}">
+                @method('PUT')
                 @csrf
+
                 <div class="form-group">
                     <label for="name">Name:</label>
-                    <input type="text" class="form-control" name="share_name" value={{ $user->name }} />
-                </div>
-                <div class="form-group">
-                    <label for="price">Email:</label>
-                    <input type="text" class="form-control" name="share_price" value={{ $user->email }} />
-                </div>
-                <div class="form-group">
-                    <label for="quantity">Password:</label>
-                    <input type="text" class="form-control" name="share_qty" value={{ $user->password }} />
+                    <input type="text" class="form-control" name="name" value="{{$category->name}}">
                 </div>
                 <button type="submit" class="btn btn-primary">Update</button>
             </form>
