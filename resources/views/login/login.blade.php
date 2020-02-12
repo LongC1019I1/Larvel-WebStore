@@ -41,12 +41,12 @@
                         <div class="col-lg-6">
                             <div class="p-5">
                                 <div class="text-center">
-                                    <h1 class="h4 text-gray-900 mb-4">Welcome Back!</h1>
+                                    <h1 class="h4 text-gray-900 mb-4">Welcome!</h1>
                                 </div>
                                 <form method="post" action="{{route('login')}}" >
                                     @csrf
                                     <div class="form-group">
-                                        <input type="text" name="username" class="form-control form-control-user"  aria-describedby="emailHelp" placeholder="Enter Email Address...">
+                                        <input type="text" name="email" class="form-control form-control-user"  aria-describedby="emailHelp" placeholder="Enter username...">
                                     </div>
                                     <div class="form-group">
                                         <input type="text" name="password" class="form-control form-control-user" placeholder="Password">

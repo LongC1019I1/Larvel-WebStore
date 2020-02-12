@@ -24,15 +24,15 @@
                 @csrf
                 <div class="form-group">
                     <label for="name">Name:</label>
-                    <input type="text" class="form-control" name="share_name" value={{ $user->name }} />
+                    <input type="text" class="form-control" name="name" value={{ $user->name }} />
                 </div>
                 <div class="form-group">
                     <label for="price">Email:</label>
-                    <input type="text" class="form-control" name="share_price" value={{ $user->email }} />
+                    <input type="text" class="form-control" name="email" value={{ $user->email }} />
                 </div>
                 <div class="form-group">
                     <label for="quantity">Password:</label>
-                    <input type="text" class="form-control" name="share_qty" value={{ $user->password }} />
+                    <input type="text" class="form-control" name="password" value={{ $user->password }} />
                 </div>
                 <button type="submit" class="btn btn-primary">Update</button>
             </form>

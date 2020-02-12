@@ -12,11 +12,25 @@
 */
 
 
+use App\Http\Controllers\LoginController;
 use Illuminate\Support\Facades\Route;
 
-Route::get('/home', function () {
-    return view('admin.dashboard');
-});
+
+
+Route::get('/login', 'LoginController@showFormLogin');
+Route::post('/login', 'LoginController@login')->name('login');
+Route::get('/logout', 'LoginController@logout')->name('logout');
+Route::middleware('checkLogin')->group(function () {
+
+
+    Route::get('/', function () {
+        return view('admin.dashboard');
+    })->name('index');
+
+
+
+
+
 Route::resource('categories','CategoryController');
 Route::resource('users','UserController');
 
@@ -27,7 +41,11 @@ Route::prefix('/product')->group(function () {
     Route::post('/create', 'ProductController@store')->name('product.store');
     Route::get('/{id}/update', 'ProductController@edit')->name('product.edit');
     Route::post('/{id}/update', 'ProductController@update')->name('product.update');
-    Route::get('/{id}/delete', 'ProductController@destroy')->name('product.destroy');
+    Route::get('delete/{id}', 'ProductController@destroy')->name('product.destroy');
     Route::get('{id}/show', 'ProductController@show')->name('product.show');
     Route::get('/search', 'ProductController@search')->name('product.search');
 });
+
+
+});
+

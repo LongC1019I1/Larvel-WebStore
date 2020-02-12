@@ -20,9 +20,9 @@
                     <textarea name="desc" rows="3"
                               class="form-control @if($errors->has('description')) border-danger @endif"
                               placeholder="Input Category Description"></textarea>
-                    @if($errors->has('description'))
+                    @if($errors->has('desc'))
                         <p class="text-danger">
-                            {{$errors->first('description')}}
+                            {{$errors->first('desc')}}
                         </p>
                     @endif
                 </div>

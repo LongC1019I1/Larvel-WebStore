@@ -2,18 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9352ccf6-c032-4a3f-9ead-836e0a6454be" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/Http/Repositories/ProductRepoInterface.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Repositories/eloquent/ProductRepo.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Requests/CreateProductRequest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Services/ProductServiceInterface.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Services/impl/ProductServices.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/products/create.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/products/edit.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/products/list.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/products/show.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Category.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Category.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Product.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Product.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/UserController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/UserController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Kernel.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Kernel.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/User.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/seeds/DatabaseSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeds/DatabaseSeeder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/layouts/master.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/master.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/login/login.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/login/login.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/products/create.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/products/create.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/users/edit.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/users/edit.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -26,6 +23,9 @@
     <execution>
       <executable />
     </execution>
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="WebSorte" />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -166,7 +166,10 @@
       <option name="presentableId" value="Default" />
       <updated>1581302395390</updated>
       <workItem from="1581302396990" duration="23444000" />
-      <workItem from="1581388745546" duration="7568000" />
+      <workItem from="1581388745546" duration="14243000" />
+      <workItem from="1581461312703" duration="3586000" />
+      <workItem from="1581469048539" duration="214000" />
+      <workItem from="1581469309889" duration="3429000" />
     </task>
     <servers />
   </component>
@@ -178,22 +181,30 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="552" y="0" width="476" height="858" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1600.860/1600.0.1366.768@0.0.1600.860" timestamp="1581308615417" />
-    <state x="491" y="200" width="524" height="482" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1581389073252">
+    <state x="491" y="200" width="524" height="482" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1581463402038">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="491" y="200" width="524" height="482" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1600.860/1600.0.1366.768@0.0.1600.860" timestamp="1581389073252" />
-    <state x="582" y="175" width="424" height="509" key="FileChooserDialogImpl" timestamp="1581391741876">
-      <screen x="0" y="0" width="1600" height="860" />
+    <state x="491" y="200" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1600.860/1600.0.1920.1080@0.0.1600.860" timestamp="1581463402038" />
+    <state x="814" y="175" width="424" height="509" key="FileChooserDialogImpl" timestamp="1581470417974">
+      <screen x="0" y="0" width="2966" height="860" />
     </state>
-    <state x="582" y="175" width="424" height="509" key="FileChooserDialogImpl/0.0.1600.860/1600.0.1366.768@0.0.1600.860" timestamp="1581391741876" />
-    <state x="486" y="262" width="597" height="359" key="NewPhpClassDialog" timestamp="1581390359945">
+    <state x="582" y="175" width="424" height="509" key="FileChooserDialogImpl/0.0.1600.860/1600.0.1366.768@0.0.1600.860" timestamp="1581414713259" />
+    <state x="582" y="175" key="FileChooserDialogImpl/0.0.1600.860/1600.0.1920.1080@0.0.1600.860" timestamp="1581461328939" />
+    <state x="814" y="175" key="FileChooserDialogImpl/0.0.2966.860@0.0.2966.860" timestamp="1581470417974" />
+    <state x="486" y="262" width="485" height="359" key="NewPhpClassDialog" timestamp="1581463984948">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="486" y="262" width="597" height="359" key="NewPhpClassDialog/0.0.1600.860/1600.0.1366.768@0.0.1600.860" timestamp="1581390359945" />
+    <state x="486" y="262" width="485" height="359" key="NewPhpClassDialog/0.0.1600.860/1600.0.1920.1080@0.0.1600.860" timestamp="1581463984948" />
     <state x="618" y="356" width="354" height="145" key="NewPhpFileDialog" timestamp="1581389174907">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="618" y="356" width="354" height="145" key="NewPhpFileDialog/0.0.1600.860/1600.0.1366.768@0.0.1600.860" timestamp="1581389174907" />
+    <state x="410" y="44" width="770" height="770" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1581420638446">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="410" y="44" width="770" height="770" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1600.860/1600.0.1366.768@0.0.1600.860" timestamp="1581420638446" />
     <state x="1957" y="18" width="642" height="729" key="com.jetbrains.php.test.PhpNewTestDialog" timestamp="1581411561803">
       <screen x="1600" y="0" width="1366" height="768" />
     </state>
@@ -202,10 +213,23 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="180" y="0" width="930" height="543" maximized="true" key="dock-window-1/0.0.1600.860/1600.0.1366.768@1600.0.1366.768" timestamp="1581411262716" />
-    <state x="476" y="167" width="647" height="526" key="find.popup" timestamp="1581393991398">
+    <state x="74" y="83" width="930" height="543" maximized="true" key="dock-window-2" timestamp="1581413938584">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="476" y="167" width="647" height="526" key="find.popup/0.0.1600.860/1600.0.1366.768@0.0.1600.860" timestamp="1581393991398" />
+    <state x="74" y="83" width="930" height="543" key="dock-window-2/0.0.1600.860/1600.0.1366.768@0.0.1600.860" timestamp="1581413721508" />
+    <state x="74" y="83" width="930" height="543" maximized="true" key="dock-window-2/0.0.1600.860/1600.0.1366.768@1600.0.1366.768" timestamp="1581413938584" />
+    <state x="1960" y="13" width="930" height="543" key="dock-window-3" timestamp="1581414476503">
+      <screen x="1600" y="0" width="1366" height="768" />
+    </state>
+    <state x="1960" y="13" width="930" height="543" key="dock-window-3/0.0.1600.860/1600.0.1366.768@0.0.1600.860" timestamp="1581414476503" />
+    <state x="476" y="167" width="647" height="526" key="find.popup" timestamp="1581421933245">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="476" y="167" width="647" height="526" key="find.popup/0.0.1600.860/1600.0.1366.768@0.0.1600.860" timestamp="1581421933245" />
+    <state x="463" y="181" width="672" height="678" key="search.everywhere.popup" timestamp="1581422962142">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="463" y="181" width="672" height="678" key="search.everywhere.popup/0.0.1600.860/1600.0.1366.768@0.0.1600.860" timestamp="1581422962142" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -214,6 +238,11 @@
           <url>file://$PROJECT_DIR$/app/Http/Controllers/ProductController.php</url>
           <line>4</line>
           <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/app/User.php</url>
+          <line>5</line>
+          <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
