@@ -1,5 +1,5 @@
-@extends('layouts.master')
-@section('page-name','Categories')
+@extends('admin.layouts.master')
+@section('page-name','User')
 @section('content')
     <style>
         .uper {
@@ -15,21 +15,23 @@
         <table class="table table-striped">
             <thead>
             <tr>
-                <td>id</td>
+                <td>ID</td>
                 <td>Name</td>
-                <td>Slug</td>
+                <td>Email</td>
+                <td>Password</td>
                 <td colspan="2">Action</td>
             </tr>
             </thead>
             <tbody>
-            @foreach($categories as $category)
+            @foreach($users as $user)
                 <tr>
-                    <td>{{$category->id}}</td>
-                    <td>{{$category->name}}</td>
-                    <td>{{$category->slug}}</td>
-                    <td><a href="{{ route('categories.edit',$category->id)}}" class="btn btn-primary">Edit</a></td>
+                    <td>{{$user->id}}</td>
+                    <td>{{$user->name}}</td>
+                    <td>{{$user->email}}</td>
+                    <td>{{$user->password}}</td>
+                    <td><a href="{{ route('users.edit',$user->id)}}" class="btn btn-primary">Edit</a></td>
                     <td>
-                        <form action="{{ route('categories.destroy', $category->id)}}" method="post">
+                        <form action="{{ route('users.destroy', $user->id)}}" method="post">
                             @csrf
                             @method('DELETE')
                             <button class="btn btn-danger" type="submit">Delete</button>

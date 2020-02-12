@@ -1,4 +1,4 @@
-@extends('layouts.master')
+@extends('admin.layouts.master')
 @section('content')
     <style>
         .uper {
@@ -7,7 +7,7 @@
     </style>
     <div class="card uper">
         <div class="card-header">
-            Add User
+            Edit Share
         </div>
         <div class="card-body">
             @if ($errors->any())
@@ -19,13 +19,15 @@
                     </ul>
                 </div><br />
             @endif
-            <form method="post" action="{{ route('categories.store') }}">
+            <form method="post" action="{{ route('categories.update', $category->id) }}">
+                @method('PUT')
+                @csrf
+
                 <div class="form-group">
-                    @csrf
                     <label for="name">Name:</label>
-                    <input type="text" class="form-control" name="name"/>
+                    <input type="text" class="form-control" name="name" value="{{$category->name}}">
                 </div>
-                <button type="submit" class="btn btn-primary">Add</button>
+                <button type="submit" class="btn btn-primary">Update</button>
             </form>
         </div>
     </div>

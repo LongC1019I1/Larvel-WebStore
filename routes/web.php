@@ -16,18 +16,21 @@ use App\Http\Controllers\LoginController;
 use Illuminate\Support\Facades\Route;
 
 
+Route::get('/','ShopController@index');
+Route::get('/products/{id}/add-to-cart','CartController@addToCart')->name('addToCart');
+Route::get('/carts/','CartController@index')->name('cart.index');
+
 
 Route::get('/login', 'LoginController@showFormLogin');
 Route::post('/login', 'LoginController@login')->name('login');
 Route::get('/logout', 'LoginController@logout')->name('logout');
+
 Route::middleware('checkLogin')->group(function () {
 
 
-    Route::get('/', function () {
+    Route::get('/home', function () {
         return view('admin.dashboard');
     })->name('index');
-
-
 
 
 

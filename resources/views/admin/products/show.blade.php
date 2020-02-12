@@ -1,4 +1,4 @@
-@extends('layouts.master')
+@extends('admin.layouts.master')
 @section('page-name','Categories')
 @section('content')
     <div class="row">

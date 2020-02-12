@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use App\Category;
 use App\Http\Services\impl\CategoryServices;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Session;
 use Illuminate\Support\Str;
 
 class CategoryController extends Controller
@@ -19,7 +20,7 @@ class CategoryController extends Controller
     public function index()
     {
         $categories = $this->categoryService->getAll();
-        return view('categories.index',compact('categories'));
+        return view('admin.categories.index',compact('categories'));
     }
 
     /**
@@ -29,7 +30,7 @@ class CategoryController extends Controller
      */
     public function create()
     {
-        return view('categories.create');
+        return view('admin.categories.create');
 
     }
 
@@ -42,7 +43,9 @@ class CategoryController extends Controller
     public function store(Request $request)
     {
         $this->categoryService->create($request);
-        return redirect('/categories')->with('success', 'Category has been added');
+        Session::flash('add-success','Create success!');
+
+        return redirect('/categories')->with('success', 'Category has been added');//success này ở ngay trang session trone index.blade.php
     }
 
     /**
@@ -66,7 +69,7 @@ class CategoryController extends Controller
     {
         $category = $this->categoryService->findById($id);
 
-        return view('categories.edit', compact('category'));
+        return view('admin.categories.edit', compact('category'));
     }
 
     /**
