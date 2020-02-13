@@ -2,7 +2,6 @@
 <script src="//netdna.bootstrapcdn.com/bootstrap/3.0.3/js/bootstrap.min.js"></script>
 <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
 <!------ Include the above in your HEAD tag ---------->
-
 <div class="container">
     <div class="row">
         <div class="col-xs-8">
@@ -22,11 +21,12 @@
                     </div>
                 </div>
                 <div class="panel-body">
+                    @foreach($cart->items as $item)
                     <div class="row">
                         <div class="col-xs-2"><img class="img-responsive" src="http://placehold.it/100x70">
                         </div>
                         <div class="col-xs-4">
-                            <h4 class="product-name"><strong>Product name</strong></h4><h4><small>Product description</small></h4>
+                            <h4 class="product-name"><strong>{{$item['item']->name}}</strong></h4><h4><small>Product description</small></h4>
                         </div>
                         <div class="col-xs-6">
                             <div class="col-xs-6 text-right">
@@ -43,28 +43,8 @@
                         </div>
                     </div>
                     <hr>
-                    <div class="row">
-                        <div class="col-xs-2"><img class="img-responsive" src="http://placehold.it/100x70">
-                        </div>
-                        <div class="col-xs-4">
-                            <h4 class="product-name"><strong>Product name</strong></h4><h4><small>Product description</small></h4>
-                        </div>
-                        <div class="col-xs-6">
-                            <div class="col-xs-6 text-right">
-                                <h6><strong>25.00 <span class="text-muted">x</span></strong></h6>
-                            </div>
-                            <div class="col-xs-4">
-                                <input type="text" class="form-control input-sm" value="1">
-                            </div>
-                            <div class="col-xs-2">
-                                <button type="button" class="btn btn-link btn-xs">
-                                    <span class="glyphicon glyphicon-trash"> </span>
-                                </button>
-                            </div>
-                        </div>
-                    </div>
-                    <hr>
-                    <div class="row">
+                    @endforeach
+
                         <div class="text-center">
                             <div class="col-xs-9">
                                 <h6 class="text-right">Added items?</h6>

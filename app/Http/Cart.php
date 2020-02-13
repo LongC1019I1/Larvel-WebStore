@@ -6,9 +6,9 @@ namespace App\Http;
 
 class Cart
 {
-    protected $items= null;
-    protected $totalPrice = 0;
-    protected $totalQty = 0;
+    public $items= null;
+    public $totalPrice = 0;
+    public $totalQty = 0;
 
     public function __construct($oldCart)
     {
@@ -23,20 +23,28 @@ class Cart
         $storesItem = [
             'item'=>$product,
             'totalPrice' => 0,
-            'toalQty' => 0
+            'totalQty' => 0
         ];
 
         //Kiểm tra san phẩm đã tồn tại trong giỏ hàng
-        if (array_key_exists($product->id, $this->items)){
-            $storesItem = $this->items[$product->id];
+
+        if ($this->items)// Kiểm tra mua hàng chưa?
+        {
+            if (array_key_exists($product->id,$this->items )){
+                $storesItem = $this->items[$product->id];
+            }
+            else {
+                $this->totalQty++;
+            }
+        } elseif(!$this->items) {
+            $this->totalQty++;
         }
-        else {
-            $this->totalQty  += $product->price;
-        }
+
         $storesItem['totalQty']++;
         $storesItem['totalPrice']+= $product->price;
 
         //xu ly gio hang
+        $this->items[$product->id] =  $storesItem;//xong Store thì nhét nó vào item
         $this->totalPrice  += $product->price;
 
 

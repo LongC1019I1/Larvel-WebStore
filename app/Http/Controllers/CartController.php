@@ -4,7 +4,7 @@ namespace App\Http\Controllers;
 
 use App\Http\Cart;
 use App\Http\Services\impl\ProductServices;
-use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Session;
 
 class CartController extends Controller
 {
@@ -16,15 +16,18 @@ class CartController extends Controller
     }
 
     public function index(){
-
+        $cart = session::get('cart');
+        return view('shop.cart.cart',compact('cart'));
     }
 
     public function addToCart($id)
     {
         $product = $this->productService->findById($id);
-        $oldCart = session('cart');
+        $oldCart = Session::get('cart');
         $newCart = new Cart($oldCart);
         $newCart->add($product);
+
+        Session::put('cart',$newCart);
 
         return back();
 

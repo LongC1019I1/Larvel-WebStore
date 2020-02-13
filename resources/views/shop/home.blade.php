@@ -8,8 +8,9 @@
                 <div class="product-grid">
                     <div class="product-image">
                         <a href="#">
-                            <img class="pic-1" src="http://bestjquery.com/tutorial/product-grid/demo9/images/img-1.jpg">
-                            <img class="pic-2" src="http://bestjquery.com/tutorial/product-grid/demo9/images/img-2.jpg">
+
+                            <img class="pic-1" src="{{asset('storage/'.$product->image)}}">
+                            <img class="pic-2" src="{{asset('storage/'.$product->image)}}">
                         </a>
                         <ul class="social">
                             <li><a href="" data-tip="Quick View"><i class="fa fa-search"></i></a></li>
@@ -26,12 +27,12 @@
                         <li class="fa fa-star"></li>
                         <li class="fa fa-star disable"></li>
                     </ul>
-                    <div class="product-content">
+                    <div style="height: 200px" class="product-content">
                         <h3 class="title"><a href="#">{{$product->name}}</a></h3>
                         <div class="price">{{number_format($product->price,0,',','.')}}
                             <span>$20.00</span>
                         </div>
-                        <a class="add-to-cart" href="">+ Add To Cart</a>
+                        <a class="add-to-cart" href="{{route('addToCart',$product->id)}}">+ Add To Cart</a>
                     </div>
                 </div>
             </div>
