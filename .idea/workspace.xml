@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="9352ccf6-c032-4a3f-9ead-836e0a6454be" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Cart.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Cart.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/CartController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/CartController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/shop/cart/cart.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/shop/cart/cart.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/shop/home.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/shop/home.blade.php" afterDir="false" />
     </list>
@@ -179,7 +177,7 @@
       <workItem from="1581502928821" duration="547000" />
       <workItem from="1581573974147" duration="100000" />
       <workItem from="1581548894622" duration="1506000" />
-      <workItem from="1581556076131" duration="10782000" />
+      <workItem from="1581556076131" duration="13386000" />
     </task>
     <servers />
   </component>
@@ -200,10 +198,10 @@
     </state>
     <state x="491" y="200" width="524" height="482" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1600.860/1600.0.1366.768@0.0.1600.860" timestamp="1581498248779" />
     <state x="491" y="200" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1600.860/1600.0.1920.1080@0.0.1600.860" timestamp="1581463402038" />
-    <state x="814" y="175" width="424" height="509" key="FileChooserDialogImpl" timestamp="1581470417974">
-      <screen x="0" y="0" width="2966" height="860" />
+    <state x="582" y="175" width="424" height="509" key="FileChooserDialogImpl" timestamp="1581575035557">
+      <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="582" y="175" width="424" height="509" key="FileChooserDialogImpl/0.0.1600.860/1600.0.1366.768@0.0.1600.860" timestamp="1581414713259" />
+    <state x="582" y="175" width="424" height="509" key="FileChooserDialogImpl/0.0.1600.860/1600.0.1366.768@0.0.1600.860" timestamp="1581575035557" />
     <state x="582" y="175" key="FileChooserDialogImpl/0.0.1600.860/1600.0.1920.1080@0.0.1600.860" timestamp="1581461328939" />
     <state x="814" y="175" key="FileChooserDialogImpl/0.0.2966.860@0.0.2966.860" timestamp="1581470417974" />
     <state width="1558" height="216" key="GridCell.Tab.0.bottom" timestamp="1581574073529">
@@ -294,11 +292,6 @@
           <url>file://$PROJECT_DIR$/resources/views/shop/home.blade.php</url>
           <line>9</line>
           <option name="timeStamp" value="4" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="php">
-          <url>file://$PROJECT_DIR$/resources/views/shop/cart/cart.blade.php</url>
-          <line>24</line>
-          <option name="timeStamp" value="5" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

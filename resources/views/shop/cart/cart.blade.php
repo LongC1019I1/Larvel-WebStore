@@ -30,10 +30,13 @@
                         </div>
                         <div class="col-xs-6">
                             <div class="col-xs-6 text-right">
-                                <h6><strong>25.00 <span class="text-muted">x</span></strong></h6>
+                                <h6><strong>{{number_format($item['item']->price)}} <span class="text-muted">x</span></strong></h6>
                             </div>
                             <div class="col-xs-4">
-                                <input type="text" class="form-control input-sm" value="1">
+                                <input type="text" class="form-control input-sm" value="{{$item['totalQty']}}">
+                            </div>
+                            <div class="col-xs-6 text-right">
+                                <h6><strong>{{number_format($item['totalPrice'])}}</strong></h6>
                             </div>
                             <div class="col-xs-2">
                                 <button type="button" class="btn btn-link btn-xs">
@@ -44,7 +47,6 @@
                     </div>
                     <hr>
                     @endforeach
-
                         <div class="text-center">
                             <div class="col-xs-9">
                                 <h6 class="text-right">Added items?</h6>
@@ -60,7 +62,7 @@
                 <div class="panel-footer">
                     <div class="row text-center">
                         <div class="col-xs-9">
-                            <h4 class="text-right">Total <strong>$50.00</strong></h4>
+                            <h4 class="text-right">Total <strong>{{$cart->totalPrice}}</strong></h4>
                         </div>
                         <div class="col-xs-3">
                             <button type="button" class="btn btn-success btn-block">

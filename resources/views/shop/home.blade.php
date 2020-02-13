@@ -27,7 +27,7 @@
                         <li class="fa fa-star"></li>
                         <li class="fa fa-star disable"></li>
                     </ul>
-                    <div style="height: 200px" class="product-content">
+                    <div class="product-content">
                         <h3 class="title"><a href="#">{{$product->name}}</a></h3>
                         <div class="price">{{number_format($product->price,0,',','.')}}
                             <span>$20.00</span>
