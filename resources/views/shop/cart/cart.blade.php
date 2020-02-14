@@ -10,11 +10,16 @@
                     <div class="panel-title">
                         <div class="row">
                             <div class="col-xs-6">
-                                <h5><span class="glyphicon glyphicon-shopping-cart"></span> Shopping Cart</h5>
+                                <h5>
+                                    <span class="glyphicon glyphicon-shopping-cart"></span>
+                                    Shopping Cart
+                                </h5>
                             </div>
                             <div class="col-xs-6">
-                                <button type="button" class="btn btn-primary btn-sm btn-block">
-                                    <span class="glyphicon glyphicon-share-alt"></span> Continue shopping
+                                <button type="button"
+                                        class="btn btn-primary btn-sm btn-block">
+                                    <span class="glyphicon glyphicon-share-alt"></span>
+                                    Continue shopping
                                 </button>
                             </div>
                         </div>
@@ -23,23 +28,39 @@
                 <div class="panel-body">
                     @foreach($cart->items as $item)
                     <div class="row">
-                        <div class="col-xs-2"><img class="img-responsive" src="http://placehold.it/100x70">
+                        <div class="col-xs-2">
+                            <img class="img-responsive"
+                                 src="{{asset('storage/'.$item['item']->image)}}">
                         </div>
                         <div class="col-xs-4">
-                            <h4 class="product-name"><strong>{{$item['item']->name}}</strong></h4><h4><small>Product description</small></h4>
+                            <h4 class="product-name">
+                                <strong>{{$item['item']->name}}</strong>
+                            </h4>
+                            <h4>
+                                <small>{{$item['item']->desc}}</small>
+                            </h4>
                         </div>
                         <div class="col-xs-6">
                             <div class="col-xs-6 text-right">
-                                <h6><strong>{{number_format($item['item']->price)}} <span class="text-muted">x</span></strong></h6>
+                                <h6>
+                                    <strong>{{number_format($item['item']->price)}}
+                                        <span class="text-muted">x</span>
+                                    </strong>
+                                </h6>
                             </div>
                             <div class="col-xs-4">
-                                <input type="text" class="form-control input-sm" value="{{$item['totalQty']}}">
+                                <input type="text"
+                                       class="form-control input-sm"
+                                       value="{{$item['totalQty']}}">
                             </div>
                             <div class="col-xs-6 text-right">
-                                <h6><strong>{{number_format($item['totalPrice'])}}</strong></h6>
+                                <h6>
+                                    <strong>{{number_format($item['totalPrice'])}}</strong>
+                                </h6>
                             </div>
                             <div class="col-xs-2">
-                                <button type="button" class="btn btn-link btn-xs">
+                                <button type="button"
+                                        class="btn btn-link btn-xs">
                                     <span class="glyphicon glyphicon-trash"> </span>
                                 </button>
                             </div>
@@ -49,10 +70,13 @@
                     @endforeach
                         <div class="text-center">
                             <div class="col-xs-9">
-                                <h6 class="text-right">Added items?</h6>
+                                <h6 class="text-right">
+                                    Added items?
+                                </h6>
                             </div>
                             <div class="col-xs-3">
-                                <button type="button" class="btn btn-default btn-sm btn-block">
+                                <button type="button"
+                                        class="btn btn-default btn-sm btn-block">
                                     Update cart
                                 </button>
                             </div>
@@ -62,10 +86,14 @@
                 <div class="panel-footer">
                     <div class="row text-center">
                         <div class="col-xs-9">
-                            <h4 class="text-right">Total <strong>{{$cart->totalPrice}}</strong></h4>
+                            <h4 class="text-right">Total
+{{--                                Đối tượng cart--}}
+                                <strong>{{number_format($cart->totalPrice)}}</strong>
+                            </h4>
                         </div>
                         <div class="col-xs-3">
-                            <button type="button" class="btn btn-success btn-block">
+                            <button type="button"
+                                    class="btn btn-success btn-block">
                                 Checkout
                             </button>
                         </div>

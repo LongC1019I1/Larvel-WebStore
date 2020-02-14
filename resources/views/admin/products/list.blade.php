@@ -2,6 +2,7 @@
 @section('content')
     <div class="row">
         <div class="col-12">
+            <button class="btn btn-primary" id="hide-image">Hide Image</button>
             <table class="table table-striped">
                 <thead>
                 <tr>

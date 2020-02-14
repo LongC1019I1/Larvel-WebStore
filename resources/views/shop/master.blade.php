@@ -12,6 +12,7 @@
     <!------ Include the above in your HEAD tag ---------->
 <link rel="stylesheet" href="{{asset('css/shop.css')}}">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+
 </head>
 <body>
 

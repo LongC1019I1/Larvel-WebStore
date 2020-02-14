@@ -12,6 +12,7 @@ class Cart
 
     public function __construct($oldCart)
     {
+
         if ($oldCart) {
             $this->items = $oldCart->items;
             $this->totalPrice = $oldCart->totalPrice;
@@ -20,6 +21,7 @@ class Cart
     }
     public function add($product)
     {
+        //add sản phẩm mới
         $storesItem = [
             'item'=>$product,
             'totalPrice' => 0,
@@ -34,7 +36,7 @@ class Cart
                 $storesItem = $this->items[$product->id];
             }
             else {
-                $this->totalQty++;
+              $this->totalQty++;
             }
         } elseif(!$this->items) {
             $this->totalQty++;
@@ -44,10 +46,8 @@ class Cart
         $storesItem['totalPrice']+= $product->price;
 
         //xu ly gio hang
-        $this->items[$product->id] =  $storesItem;//xong Store thì nhét nó vào item
+        $this->items[$product->id] =  $storesItem;//xong Store thì nhét nó vào mảng item
         $this->totalPrice  += $product->price;
-
-
 
     }
 

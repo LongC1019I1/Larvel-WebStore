@@ -81,7 +81,7 @@ class CategoryController extends Controller
      */
     public function update(Request $request, $id)
     {
-//        dd($id);
+
         $this->categoryService->update($request,$id);
 
         return redirect('/categories')->with('success', 'Category has been updated');
