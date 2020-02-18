@@ -26,7 +26,7 @@
                     </div>
                 </div>
                 <div class="panel-body">
-                    @foreach($cart->items as $item)
+                    @forelse($cart->items as $item)
                     <div class="row">
                         <div class="col-xs-2">
                             <img class="img-responsive"
@@ -49,8 +49,10 @@
                                 </h6>
                             </div>
                             <div class="col-xs-4">
-                                <input type="text"
+                                <input type="number"
                                        class="form-control input-sm"
+                                       id="change-product-qty"
+                                       data-id="prdouct-{{$item['item']->id}}"
                                        value="{{$item['totalQty']}}">
                             </div>
                             <div class="col-xs-6 text-right">
@@ -59,15 +61,21 @@
                                 </h6>
                             </div>
                             <div class="col-xs-2">
+                                <a href="{{route('deleteCart',$item['item']->id)}}">
                                 <button type="button"
                                         class="btn btn-link btn-xs">
                                     <span class="glyphicon glyphicon-trash"> </span>
                                 </button>
+                                </a>
                             </div>
                         </div>
                     </div>
                     <hr>
-                    @endforeach
+                    @empty
+                        <div>
+                            <p>Chưa có sản phẩm</p>
+                        </div>
+                    @endforelse
                         <div class="text-center">
                             <div class="col-xs-9">
                                 <h6 class="text-right">

@@ -17,7 +17,7 @@
 
     <!-- Custom styles for this template-->
     <link href="{{asset('css/sb-admin-2.min.css')}}" rel="stylesheet">
-    <script src="{{asset('js/my.js')}}"></script>
+
 </head>
 
 <body id="page-top">
@@ -84,11 +84,11 @@
 
         <!-- Nav Item - Utilities Product Menu -->
         <li class="nav-item">
-            <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseUtilities" aria-expanded="true" aria-controls="collapseUtilities">
+            <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseProducts" aria-expanded="true" aria-controls="collapseProducts">
                 <i class="fas fa-fw fa-wrench"></i>
-                <span>Categories</span>
+                <span>Product</span>
             </a>
-            <div id="collapseUtilities" class="collapse" aria-labelledby="headingUtilities" data-parent="#accordionSidebar">
+            <div id="collapseProducts" class="collapse" aria-labelledby="headingUtilities" data-parent="#accordionSidebar">
                 <div class="bg-white py-2 collapse-inner rounded">
                     <a class="collapse-item" href="{{route('categories.index')}}">List Category</a>
                     <a class="collapse-item" href="{{route('categories.create')}}">Create Category</a>
@@ -409,7 +409,7 @@
 <!-- Page level custom scripts -->
 <script src="{{asset('js/demo/chart-area-demo.js')}}"></script>
 <script src="{{asset('js/demo/chart-pie-demo.js')}}"></script>
-
+<script src="{{asset('js/my.js')}}"></script>
 </body>
 
 </html>

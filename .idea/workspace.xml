@@ -2,15 +2,115 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9352ccf6-c032-4a3f-9ead-836e0a6454be" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/resources/js/my.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/electro-colorlib/__MACOSX/electro/._Credits.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/electro-colorlib/__MACOSX/electro/._blank.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/electro-colorlib/__MACOSX/electro/._checkout.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/electro-colorlib/__MACOSX/electro/._css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/electro-colorlib/__MACOSX/electro/._fonts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/electro-colorlib/__MACOSX/electro/._img" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/electro-colorlib/__MACOSX/electro/._index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/electro-colorlib/__MACOSX/electro/._js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/electro-colorlib/__MACOSX/electro/._product.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/electro-colorlib/__MACOSX/electro/._screenshot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/electro-colorlib/__MACOSX/electro/._store.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/electro-colorlib/__MACOSX/electro/css/._bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/electro-colorlib/__MACOSX/electro/css/._font-awesome.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/electro-colorlib/__MACOSX/electro/css/._nouislider.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/electro-colorlib/__MACOSX/electro/css/._slick-theme.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/electro-colorlib/__MACOSX/electro/css/._slick.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/electro-colorlib/__MACOSX/electro/css/._style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/electro-colorlib/__MACOSX/electro/fonts/._FontAwesome.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/electro-colorlib/__MACOSX/electro/fonts/._fontawesome-webfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/electro-colorlib/__MACOSX/electro/fonts/._fontawesome-webfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/electro-colorlib/__MACOSX/electro/fonts/._fontawesome-webfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/electro-colorlib/__MACOSX/electro/fonts/._fontawesome-webfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/electro-colorlib/__MACOSX/electro/fonts/._fontawesome-webfont.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/electro-colorlib/__MACOSX/electro/fonts/._slick.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/electro-colorlib/__MACOSX/electro/fonts/._slick.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/electro-colorlib/__MACOSX/electro/fonts/._slick.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/electro-colorlib/__MACOSX/electro/fonts/._slick.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/electro-colorlib/__MACOSX/electro/img/._hotdeal.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/electro-colorlib/__MACOSX/electro/img/._logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/electro-colorlib/__MACOSX/electro/img/._product01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/electro-colorlib/__MACOSX/electro/img/._product02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/electro-colorlib/__MACOSX/electro/img/._product03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/electro-colorlib/__MACOSX/electro/img/._product04.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/electro-colorlib/__MACOSX/electro/img/._product05.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/electro-colorlib/__MACOSX/electro/img/._product06.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/electro-colorlib/__MACOSX/electro/img/._product07.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/electro-colorlib/__MACOSX/electro/img/._product08.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/electro-colorlib/__MACOSX/electro/img/._product09.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/electro-colorlib/__MACOSX/electro/img/._shop01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/electro-colorlib/__MACOSX/electro/img/._shop02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/electro-colorlib/__MACOSX/electro/img/._shop03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/electro-colorlib/__MACOSX/electro/js/._bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/electro-colorlib/__MACOSX/electro/js/._jquery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/electro-colorlib/__MACOSX/electro/js/._jquery.zoom.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/electro-colorlib/__MACOSX/electro/js/._main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/electro-colorlib/__MACOSX/electro/js/._nouislider.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/electro-colorlib/__MACOSX/electro/js/._slick.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/electro-colorlib/__MACOSX/electro/screenshot/._Checkout.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/electro-colorlib/__MACOSX/electro/screenshot/._Index.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/electro-colorlib/__MACOSX/electro/screenshot/._Product.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/electro-colorlib/__MACOSX/electro/screenshot/._Regular.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/electro-colorlib/__MACOSX/electro/screenshot/._Store.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/electro-colorlib/electro/Credits.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/electro-colorlib/electro/blank.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/electro-colorlib/electro/checkout.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/electro-colorlib/electro/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/electro-colorlib/electro/css/font-awesome.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/electro-colorlib/electro/css/nouislider.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/electro-colorlib/electro/css/slick-theme.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/electro-colorlib/electro/css/slick.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/electro-colorlib/electro/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/electro-colorlib/electro/fonts/FontAwesome.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/electro-colorlib/electro/fonts/fontawesome-webfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/electro-colorlib/electro/fonts/fontawesome-webfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/electro-colorlib/electro/fonts/fontawesome-webfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/electro-colorlib/electro/fonts/fontawesome-webfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/electro-colorlib/electro/fonts/fontawesome-webfont.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/electro-colorlib/electro/fonts/slick.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/electro-colorlib/electro/fonts/slick.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/electro-colorlib/electro/fonts/slick.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/electro-colorlib/electro/fonts/slick.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/electro-colorlib/electro/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/electro-colorlib/electro/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/electro-colorlib/electro/js/jquery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/electro-colorlib/electro/js/jquery.zoom.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/electro-colorlib/electro/js/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/electro-colorlib/electro/js/nouislider.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/electro-colorlib/electro/js/slick.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/electro-colorlib/electro/product.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/electro-colorlib/electro/screenshot/Checkout.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/electro-colorlib/electro/screenshot/Index.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/electro-colorlib/electro/screenshot/Product.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/electro-colorlib/electro/screenshot/Regular.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/electro-colorlib/electro/screenshot/Store.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/electro-colorlib/electro/store.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/font-awesome.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/nouislider.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/slick-theme.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/slick.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/jquery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/jquery.zoom.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/my.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/nouislider.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/slick.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/shop/index.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Cart.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Cart.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/CartController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/CartController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/CategoryController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/CategoryController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/ProductController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/ProductController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/js/my.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/admin/layouts/master.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/layouts/master.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/admin/products/list.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/products/list.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/shop/cart/cart.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/shop/cart/cart.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/shop/master.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/shop/master.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/shop/home.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/shop/home.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -140,23 +240,24 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/Http/Services" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/app/Http/Services" />
-      <recent name="$PROJECT_DIR$/resources/views" />
-      <recent name="$PROJECT_DIR$/resources/views/categories" />
-      <recent name="$PROJECT_DIR$/public/vendor" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/resources/views/shop" />
+      <recent name="$PROJECT_DIR$/resources/views/shop/cart" />
+      <recent name="$PROJECT_DIR$/public/storage/images" />
+      <recent name="$PROJECT_DIR$/public/js" />
       <recent name="$PROJECT_DIR$/public" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/resources/views/home" />
-      <recent name="$PROJECT_DIR$/resources/views/admin" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/public/js" />
+      <recent name="$PROJECT_DIR$/public/css" />
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/app/Http/Services" />
       <recent name="$PROJECT_DIR$/resources/views" />
-      <recent name="$PROJECT_DIR$/resources" />
     </key>
   </component>
   <component name="RunManager">
@@ -187,7 +288,15 @@
       <workItem from="1581556076131" duration="16892000" />
       <workItem from="1581593741411" duration="329000" />
       <workItem from="1581633010225" duration="4071000" />
-      <workItem from="1581642290482" duration="1197000" />
+      <workItem from="1581642290482" duration="7355000" />
+      <workItem from="1581651953293" duration="4905000" />
+      <workItem from="1581658400925" duration="7356000" />
+      <workItem from="1581836809090" duration="4454000" />
+      <workItem from="1581842145512" duration="3225000" />
+      <workItem from="1581847669334" duration="4579000" />
+      <workItem from="1581905107271" duration="1465000" />
+      <workItem from="1581980747029" duration="2471000" />
+      <workItem from="1581987787293" duration="4525000" />
     </task>
     <servers />
   </component>
@@ -208,41 +317,43 @@
     </state>
     <state x="491" y="200" width="524" height="482" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1600.860/1600.0.1366.768@0.0.1600.860" timestamp="1581498248779" />
     <state x="491" y="200" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1600.860/1600.0.1920.1080@0.0.1600.860" timestamp="1581463402038" />
-    <state x="582" y="175" width="424" height="509" key="FileChooserDialogImpl" timestamp="1581575035557">
+    <state x="582" y="175" width="424" height="509" key="FileChooserDialogImpl" timestamp="1581905383988">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="582" y="175" width="424" height="509" key="FileChooserDialogImpl/0.0.1600.860/1600.0.1366.768@0.0.1600.860" timestamp="1581575035557" />
     <state x="582" y="175" key="FileChooserDialogImpl/0.0.1600.860/1600.0.1920.1080@0.0.1600.860" timestamp="1581461328939" />
+    <state x="2298" y="220" width="424" height="509" key="FileChooserDialogImpl/0.0.1600.860/1600.0.1920.1080@1600.0.1920.1080" timestamp="1581847687739" />
+    <state x="582" y="175" key="FileChooserDialogImpl/0.0.1600.860@0.0.1600.860" timestamp="1581905383988" />
     <state x="814" y="175" key="FileChooserDialogImpl/0.0.2966.860@0.0.2966.860" timestamp="1581470417974" />
-    <state width="1558" height="216" key="GridCell.Tab.0.bottom" timestamp="1581643486211">
+    <state width="1558" height="216" key="GridCell.Tab.0.bottom" timestamp="1581650100858">
       <screen x="0" y="0" width="2966" height="860" />
     </state>
-    <state width="1558" height="216" key="GridCell.Tab.0.bottom/0.0.2966.860@0.0.2966.860" timestamp="1581643486211" />
+    <state width="1558" height="216" key="GridCell.Tab.0.bottom/0.0.2966.860@0.0.2966.860" timestamp="1581650100858" />
     <state width="1558" height="216" key="GridCell.Tab.0.bottom/0.0.3520.860@0.0.3520.860" timestamp="1581574073529" />
-    <state width="1558" height="216" key="GridCell.Tab.0.center" timestamp="1581643486210">
+    <state width="1558" height="216" key="GridCell.Tab.0.center" timestamp="1581650100856">
       <screen x="0" y="0" width="2966" height="860" />
     </state>
-    <state width="1558" height="216" key="GridCell.Tab.0.center/0.0.2966.860@0.0.2966.860" timestamp="1581643486210" />
+    <state width="1558" height="216" key="GridCell.Tab.0.center/0.0.2966.860@0.0.2966.860" timestamp="1581650100856" />
     <state width="1558" height="216" key="GridCell.Tab.0.center/0.0.3520.860@0.0.3520.860" timestamp="1581574073529" />
-    <state width="1558" height="216" key="GridCell.Tab.0.left" timestamp="1581643486210">
+    <state width="1558" height="216" key="GridCell.Tab.0.left" timestamp="1581650100852">
       <screen x="0" y="0" width="2966" height="860" />
     </state>
-    <state width="1558" height="216" key="GridCell.Tab.0.left/0.0.2966.860@0.0.2966.860" timestamp="1581643486210" />
+    <state width="1558" height="216" key="GridCell.Tab.0.left/0.0.2966.860@0.0.2966.860" timestamp="1581650100852" />
     <state width="1558" height="216" key="GridCell.Tab.0.left/0.0.3520.860@0.0.3520.860" timestamp="1581574073528" />
-    <state width="1558" height="216" key="GridCell.Tab.0.right" timestamp="1581643486211">
+    <state width="1558" height="216" key="GridCell.Tab.0.right" timestamp="1581650100857">
       <screen x="0" y="0" width="2966" height="860" />
     </state>
-    <state width="1558" height="216" key="GridCell.Tab.0.right/0.0.2966.860@0.0.2966.860" timestamp="1581643486211" />
+    <state width="1558" height="216" key="GridCell.Tab.0.right/0.0.2966.860@0.0.2966.860" timestamp="1581650100857" />
     <state width="1558" height="216" key="GridCell.Tab.0.right/0.0.3520.860@0.0.3520.860" timestamp="1581574073529" />
     <state x="486" y="262" width="485" height="359" key="NewPhpClassDialog" timestamp="1581502951006">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="486" y="262" width="597" height="359" key="NewPhpClassDialog/0.0.1600.860/1600.0.1366.768@0.0.1600.860" timestamp="1581502951006" />
     <state x="486" y="262" width="485" height="359" key="NewPhpClassDialog/0.0.1600.860/1600.0.1920.1080@0.0.1600.860" timestamp="1581463984948" />
-    <state x="618" y="356" width="354" height="147" key="NewPhpFileDialog" timestamp="1581503270571">
+    <state x="618" y="356" width="354" height="147" key="NewPhpFileDialog" timestamp="1581672589665">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="618" y="356" width="354" height="147" key="NewPhpFileDialog/0.0.1600.860/1600.0.1366.768@0.0.1600.860" timestamp="1581503270571" />
+    <state x="618" y="356" width="354" height="147" key="NewPhpFileDialog/0.0.1600.860/1600.0.1366.768@0.0.1600.860" timestamp="1581672589665" />
     <state x="943" y="356" width="354" height="145" key="NewPhpFileDialog/0.0.2966.860@0.0.2966.860" timestamp="1581481140378" />
     <state x="620" y="143" width="349" height="571" key="RollbackChangesDialog" timestamp="1581564631826">
       <screen x="0" y="0" width="1600" height="860" />
@@ -269,20 +380,22 @@
       <screen x="1600" y="0" width="1366" height="768" />
     </state>
     <state x="1960" y="13" width="930" height="543" key="dock-window-3/0.0.1600.860/1600.0.1366.768@0.0.1600.860" timestamp="1581414476503" />
-    <state x="1045" y="290" width="777" height="637" key="find.popup" timestamp="1581634318730">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="476" y="167" width="647" height="534" key="find.popup" timestamp="1581990936658">
+      <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="476" y="167" width="647" height="526" key="find.popup/0.0.1600.860/1600.0.1366.768@0.0.1600.860" timestamp="1581589733973" />
+    <state x="476" y="167" width="647" height="534" key="find.popup/0.0.1600.860/1600.0.1366.768@0.0.1600.860" timestamp="1581990936658" />
+    <state x="2171" y="210" width="777" height="671" key="find.popup/0.0.1600.860/1600.0.1920.1080@1600.0.1920.1080" timestamp="1581843360206" />
+    <state x="476" y="167" width="648" height="535" key="find.popup/0.0.1600.860@0.0.1600.860" timestamp="1581922047839" />
     <state x="1045" y="290" width="777" height="637" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1581634318730" />
-    <state x="288" y="145" width="1200" height="526" key="find.popup/0.0.2966.860@0.0.2966.860" timestamp="1581482016095" />
-    <state x="464" y="192" key="run.anything.popup" timestamp="1581558247663">
+    <state x="229" y="326" width="1200" height="534" key="find.popup/0.0.2966.860@0.0.2966.860" timestamp="1581647788748" />
+    <state x="464" y="192" key="run.anything.popup" timestamp="1581670350096">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="464" y="192" key="run.anything.popup/0.0.1600.860/1600.0.1366.768@0.0.1600.860" timestamp="1581558247663" />
-    <state x="463" y="181" width="672" height="678" key="search.everywhere.popup" timestamp="1581588322871">
+    <state x="464" y="192" key="run.anything.popup/0.0.1600.860/1600.0.1366.768@0.0.1600.860" timestamp="1581670350096" />
+    <state x="463" y="181" width="672" height="678" key="search.everywhere.popup" timestamp="1581672927736">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="463" y="181" width="672" height="678" key="search.everywhere.popup/0.0.1600.860/1600.0.1366.768@0.0.1600.860" timestamp="1581588322871" />
+    <state x="463" y="181" width="672" height="678" key="search.everywhere.popup/0.0.1600.860/1600.0.1366.768@0.0.1600.860" timestamp="1581672927736" />
     <state x="858" y="181" width="1246" height="678" key="search.everywhere.popup/0.0.2966.860@0.0.2966.860" timestamp="1581482027223" />
   </component>
   <component name="XDebuggerManager">
@@ -305,8 +418,13 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="php">
           <url>file://$PROJECT_DIR$/resources/views/shop/home.blade.php</url>
-          <line>9</line>
+          <line>37</line>
           <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/app/Http/Cart.php</url>
+          <line>89</line>
+          <option name="timeStamp" value="5" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

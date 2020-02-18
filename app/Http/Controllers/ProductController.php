@@ -103,4 +103,5 @@ class ProductController extends Controller
         $products = $this->productService->search($request);
         return view('admin.products.list', compact('products'));
     }
+
 }

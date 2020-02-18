@@ -23,9 +23,9 @@ class CartController extends Controller
     public function addToCart($id)
     {
         $product = $this->productService->findById($id);
-        //cart lấy dữ liệu kiểu gì? Có phải Sesion:get này tạo ra file session không?
-        // get('cart') là lấy dữ liệu từ trang homehay là lấy dữ liệu từ trang cart, lấy giá trị gì? product hay là gì?
-        //Nhìn một phiên tồn tại trong bao lâu ở đâu?
+        //cart lấy dữ liệu kiểu gì? Có phải Sesion:get này tạo ra file session không? Lấy dữ liệu trong file Session
+        // lấy giá trị gì? lấy giá trị $oldCart trong, newcart
+        //Mục đích có hàm này $oldCart = Session::get('cart') vì, khi load lại trang khi add có thể mất dữ liệu, nên phải lấy lại giá trị, rồi mới add thêm
         $oldCart = Session::get('cart');
         $newCart = new Cart($oldCart);
         $newCart->add($product);
@@ -33,5 +33,20 @@ class CartController extends Controller
         Session::put('cart',$newCart);
 
         return back();
+    }
+
+    public function deleteCart($id)
+    {
+        $product = $this->productService->findById($id);
+        $oldCart = Session::get('cart');
+
+        $newCart = new Cart($oldCart);
+        $newCart->delete($product);
+//        $cart = Session::get('cart');
+//        unset($cart->items[$id]);
+        Session::put('cart', $newCart);
+        return redirect()->back();
+
+
     }
 }

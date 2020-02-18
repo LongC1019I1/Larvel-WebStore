@@ -18,6 +18,7 @@ class Cart
             $this->totalPrice = $oldCart->totalPrice;
             $this->totalQty = $oldCart->totalQty;
         }
+
     }
     public function add($product)
     {
@@ -48,6 +49,30 @@ class Cart
         //xu ly gio hang
         $this->items[$product->id] =  $storesItem;//xong Store thì nhét nó vào mảng item
         $this->totalPrice  += $product->price;
+
+    }
+
+    public function delete($product)
+    {
+
+
+        if ($this->items)// Kiểm tra mua hàng chưa?
+        {
+            if (array_key_exists($product->id,$this->items )){
+
+                $this->totalPrice  -= $this->items[$product->id]['totalPrice'];
+
+                unset($this->items[$product->id]);
+                $this->totalQty--;
+            }
+
+        }
+
+//        dd($this->items[$product->id]['totalPrice']);
+//        var_dump($this->items);
+//        die();
+//        dd($this->items[$product->id]);
+//        dd($this->items[$product->id]['totalPrice']);
 
     }
 

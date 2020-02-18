@@ -18,6 +18,7 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/','ShopController@index');
 Route::get('/products/{id}/add-to-cart','CartController@addToCart')->name('addToCart');
+Route::get('/products/{id}/delete-cart','CartController@deleteCart')->name('deleteCart');
 Route::get('/carts/','CartController@index')->name('cart.index');
 
 
@@ -48,6 +49,8 @@ Route::prefix('/product')->group(function () {
     Route::get('{id}/show', 'ProductController@show')->name('product.show');
     Route::get('/search', 'ProductController@search')->name('product.search');
 });
+
+
 
 
 });
