@@ -16,10 +16,7 @@ use App\Http\Controllers\LoginController;
 use Illuminate\Support\Facades\Route;
 
 
-Route::get('/','ShopController@index');
-Route::get('/products/{id}/add-to-cart','CartController@addToCart')->name('addToCart');
-Route::get('/products/{id}/delete-cart','CartController@deleteCart')->name('deleteCart');
-Route::get('/carts/','CartController@index')->name('cart.index');
+
 
 
 Route::get('/login', 'LoginController@showFormLogin');
@@ -38,7 +35,6 @@ Route::middleware('checkLogin')->group(function () {
 Route::resource('categories','CategoryController');
 Route::resource('users','UserController');
 
-
 Route::prefix('/product')->group(function () {
     Route::get('/', 'ProductController@index')->name('product.index');
     Route::get('/create', 'ProductController@create')->name('product.create');
@@ -50,8 +46,12 @@ Route::prefix('/product')->group(function () {
     Route::get('/search', 'ProductController@search')->name('product.search');
 });
 
-
-
-
 });
+
+Route::get('/','ShopController@index');
+Route::get('/products/{id}/add-to-cart','CartController@addToCart')->name('addToCart');
+Route::get('/products/{id}/delete-cart','CartController@deleteCart')->name('deleteCart');
+Route::get('/carts/','CartController@index')->name('cart.index');
+Route::get('/checkout/','CartController@checkout')->name('checkout');
+Route::post('/checkout/','CartController@store')->name('checkout.store');
 

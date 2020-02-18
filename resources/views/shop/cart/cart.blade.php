@@ -100,10 +100,10 @@
                             </h4>
                         </div>
                         <div class="col-xs-3">
-                            <button type="button"
+                            <a href="{{route('checkout')}}"
                                     class="btn btn-success btn-block">
                                 Checkout
-                            </button>
+                            </a>
                         </div>
                     </div>
                 </div>

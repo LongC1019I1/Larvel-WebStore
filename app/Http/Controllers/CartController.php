@@ -2,8 +2,10 @@
 
 namespace App\Http\Controllers;
 
+use App\Checkout;
 use App\Http\Cart;
 use App\Http\Services\impl\ProductServices;
+use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Session;
 
 class CartController extends Controller
@@ -15,9 +17,30 @@ class CartController extends Controller
         $this->productService = $productService;
     }
 
-    public function index(){
+    public function index()
+    {
         $cart = session::get('cart');
-        return view('shop.cart.cart',compact('cart'));
+        return view('shop.cart.cart', compact('cart'));
+    }
+
+    public function checkout()
+    {
+        $cart = session::get('cart');
+        return view('shop.cart.checkout', compact('cart'));
+    }
+
+    public function store(Request $request)
+    {
+        $request->validate([
+                'name' => 'required',
+                'address' => 'required',
+                'phone' => 'required']
+        );
+        $checkout = new Checkout();
+        $checkout->fill($request->all());
+        $checkout->save();
+        return redirect('/')->with('success','Check out has been checkout');
+
     }
 
     public function addToCart($id)
@@ -30,7 +53,7 @@ class CartController extends Controller
         $newCart = new Cart($oldCart);
         $newCart->add($product);
         //Session sẽ sinh ra khi được gán giá trị.
-        Session::put('cart',$newCart);
+        Session::put('cart', $newCart);
 
         return back();
     }
@@ -46,7 +69,6 @@ class CartController extends Controller
 //        unset($cart->items[$id]);
         Session::put('cart', $newCart);
         return redirect()->back();
-
 
     }
 }
